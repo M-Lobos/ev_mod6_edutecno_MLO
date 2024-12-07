@@ -1,0 +1,24 @@
+{
+  "name": "ev_mod6_manuel_lobos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
